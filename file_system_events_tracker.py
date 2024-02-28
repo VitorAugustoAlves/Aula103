@@ -24,7 +24,7 @@ class FileEventHandler(FileSystemEventHandler):
 
 #Professora Não estou conseguindo fazer o Observer
 
-event_handler = FileEventHandler
+event_handler = FileEventHandler()
 
 observer = Observer()
 
